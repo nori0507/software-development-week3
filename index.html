@@ -26,7 +26,14 @@
                         <h6>Create New Task</h6>
                     </div>
                     <div class="card-body">
-                        <!-- TODO -->
+                        <!--adding boxes so that users can put an input-->
+                        <ul>
+                            <li><label>Task Name</label><input type="text" class="input-box"></li>
+                            <li><label>Description</label><input type="text" class="input-box"></li>
+                            <li><label>Task Due Date</label><input type="text" class="input-box"></li>
+                        </ul>
+                        <!--adding a button to add a task-->
+                        <button id="add-btn">Add</button>
                     </div>
                 </div>
 
@@ -40,7 +47,7 @@
                                 <div class="task-content">
                                     <div class="task-title">Sample Task</div>
                                     <div class="task-description">This is what a task looks like</div>
-                                    <div class="task-date">Due: 2025-10-15</div>
+                                    <div id="first-task-due">Due: 2025-10-15</div>
                                     <!-- TODO -->
                                 </div>
                                 <div class="task-actions">

@@ -88,3 +88,10 @@ body {
 .task-completed .task-title {
     text-decoration: line-through;
 }
+
+/* styling the input box*/
+.input-box {
+    width: 700px;
+    padding: 5px 10px;
+}
+
